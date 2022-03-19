@@ -21,6 +21,8 @@ iOS Application
 ![Demo-part2](https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif)
 ---------------------------------------------------
 
+# Project Goals
+
 | # | Goal                                                              | Implementation                                                              |
 | - | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | 1 | Identify a project that can be implemented in Swift.              | FAB Casino                                                                  |
@@ -34,7 +36,42 @@ iOS Application
 | 9 | Analyze and interpret compilation errors, unit test results, and code behavior to debug code. | Much testing has taken place to make sure that the user wallet is functioning properly                                                                                                                                  |
 | 10 | Write code that utilizes programming-language constructs and software libraries from documentation. | The group has researched into multiple libraries to make the complex features easier to create                                                                                                                 |
 
-## Brainstorm
+# Features
+## Initial Feature Plan:
+```
+  ● We should aim to have 9 features at minimum, (9 weeks dev, 1 week testing) 
+      1. screens 
+      2. Casino environment / lobby 
+      3. character animation for user / physics for environment and character 
+      4. Games: blackjack (21), slot machine (lucky 7 theme), roulette, 
+         logic / animations for the games 
+      5. In-game currency: different wallet for each game 
+      6. Lobby music 
+```
+
+## Realease Version
+```
+Release Version Features List (12/7/2020): 
+  1. Main lobby, Game menu animations (game tables, background) 
+  2. Main character Animation (Mafia member) 
+  3. Main character physics (move around tables & screen) 
+  4. 3 different casino games 
+      a. Roulette 
+      b. BlackJack 
+      c. SlotMachine 
+  5. Individual game currency 
+  6. Wallet connected between all 3 games 
+  7. Check for Saved User Data 
+      a. If first time, creates user profile containing wallet 
+         information from any of the 3 games 
+      b. If not first time, Loads previously saved wallet data 
+  8. All Code Feature Requirements from the Project Guide 
+```
+---------------------------------------------------
+![Demo-part1](https://user-images.githubusercontent.com/47013770/159123715-e4f13d97-699a-4a57-8647-7c8b44ee8b0e.gif)
+---------------------------------------------------
+
+# Brainstorm
 ```
 Overall App Idea Brainstorm: 
   ● Mobile app named: FAB Casino 
@@ -88,44 +125,8 @@ member, the email of the group representative, or whatever makes the most sense.
               make sure the information we learn in class sticks in our brains, and maybe 
               later it becomes muscle memory.
 ```
-## Features
-### Initial Plan:
-```
-  ● We should aim to have 9 features at minimum, (9 weeks dev, 1 week testing) 
-      1. screens 
-      2. Casino environment / lobby 
-      3. character animation for user / physics for environment and character 
-      4. Games: blackjack (21), slot machine (lucky 7 theme), roulette, 
-         logic / animations for the games 
-      5. In-game currency: different wallet for each game 
-      6. Lobby music 
-```
 
-### Realease Version
-Full Demo - Youtube URL: https://youtu.be/DBmEFR_qsgE
-
-```
-Release Version Features List (12/7/2020): 
-  1. Main lobby, Game menu animations (game tables, background) 
-  2. Main character Animation (Mafia member) 
-  3. Main character physics (move around tables & screen) 
-  4. 3 different casino games 
-      a. Roulette 
-      b. BlackJack 
-      c. SlotMachine 
-  5. Individual game currency 
-  6. Wallet connected between all 3 games 
-  7. Check for Saved User Data 
-      a. If first time, creates user profile containing wallet 
-         information from any of the 3 games 
-      b. If not first time, Loads previously saved wallet data 
-  8. All Code Feature Requirements from the Project Guide 
-```
----------------------------------------------------
-![Demo-part1](https://user-images.githubusercontent.com/47013770/159123715-e4f13d97-699a-4a57-8647-7c8b44ee8b0e.gif)
----------------------------------------------------
-
-## Schedule
+# Schedule
 - Created a 10-week schedule to guide the team’s progress.
 - Last Updated: 12/07/2020 
 
