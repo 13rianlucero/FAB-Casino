@@ -1,2 +1,7 @@
-# FAB-Casino
-iOS Application, Swift code developed natively in Xcode, tested via multiple iOS devices/simulators 
+# project-mafia
+project-mafia created by GitHub Classroom
+
+# Team Members:
+-Brian Lucero
+-Angel Zambrano
+-Fahad Alsowaylim
