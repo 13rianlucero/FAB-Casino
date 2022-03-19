@@ -9,9 +9,6 @@ iOS Application
 | Angel Zambrano              | angelz@csu.fullerton.edu          |
 | Fahad Alsowaylim            | fss@csu.fullerton.edu             |
 
-## FAB Casino
-![FAB-Casino](https://user-images.githubusercontent.com/47013770/159123678-11599cb1-9fc5-4c7b-aa0c-f1e88d7bce3a.jpg)
-
 ## Overview
 ### Summary
 ```
@@ -21,8 +18,9 @@ The objective is to obtain more virtual chips(in-game currency),
 just like in any real-world casino. Chips can be gained by 
 playing and bidding in any of the three games.
 ```
+![FAB-Casino](https://user-images.githubusercontent.com/47013770/159123678-11599cb1-9fc5-4c7b-aa0c-f1e88d7bce3a.jpg)
 
-### Brainstorm
+## Brainstorm
 ```
 Overall App Idea Brainstorm: 
   ● Mobile app named: FAB Casino 
