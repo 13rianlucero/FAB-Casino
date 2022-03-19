@@ -25,7 +25,7 @@ iOS Application
 | - | - | - |
 | 1 | Identify a project that can be implemented in Swift. | FAB Casino |
 | 2 | Write a design document that will guide the development of the project. | Included in Documentation folder |
-| 3 | Design and write code that makes appropriate use of fundamental programming constructs and data structuresWrite a design document that will guide the development of the project. (e.g., expressions, conditions, loops, user-defined functions, primitive data types). | each game of the 3 utilizes these programming constructs |
+| 3 | Design and write code that makes appropriate use of fundamental programming constructs and data structures (e.g., expressions, conditions, loops, user-defined functions, primitive data types). | each game of the 3 utilizes these programming constructs |
 | 4 | Design and write code that makes appropriate use of object-oriented concepts (e.g., classes, objects, methods, composition, and inheritance).Write a design document that will guide the development of the project. | each game makes use of classes and objects |
 | 5 | Design and write code that makes appropriate use of advanced programming concepts (e.g., error handling). | angels "roulette game" makes use of error handling, so that the user cannot type in a string when entering the bet amount |
 | 6 | Write code that follows coding standards. | our code in all of the files, follows the coding standards that we know of currently |
