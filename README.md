@@ -9,6 +9,9 @@ iOS Application
 | Angel Zambrano              | angelz@csu.fullerton.edu          |
 | Fahad Alsowaylim            | fss@csu.fullerton.edu             |
 
+## FAB Casino
+![FAB-Casino](https://user-images.githubusercontent.com/47013770/159123678-11599cb1-9fc5-4c7b-aa0c-f1e88d7bce3a.jpg)
+
 ## Overview
 ### Summary
 ```
@@ -38,6 +41,9 @@ Overall App Idea Brainstorm:
       ○ Dont let ur mom find out 
       ○ Palacio del tesoro
 ```
+## Introduction GIFs
+![Demo-part1](https://user-images.githubusercontent.com/47013770/159123715-e4f13d97-699a-4a57-8647-7c8b44ee8b0e.gif)
+![Demo-part2](https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif)
 
 ## Platform
 ```
