@@ -21,18 +21,18 @@ iOS Application
 ![Demo-part2](https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif)
 ---------------------------------------------------
 
-| # | Goal | Implementation |
-| - | - | - |
-| 1 | Identify a project that can be implemented in Swift. | FAB Casino |
-| 2 | Write a design document that will guide the development of the project. | Included in Documentation folder |
-| 3 | Design and write code that makes appropriate use of fundamental programming constructs and data structures (e.g., expressions, conditions, loops, user-defined functions, primitive data types). | each game of the 3 utilizes these programming constructs |
-| 4 | Design and write code that makes appropriate use of object-oriented concepts (e.g., classes, objects, methods, composition, and inheritance).Write a design document that will guide the development of the project. | each game makes use of classes and objects |
-| 5 | Design and write code that makes appropriate use of advanced programming concepts (e.g., error handling). | angels "roulette game" makes use of error handling, so that the user cannot type in a string when entering the bet amount |
-| 6 | Write code that follows coding standards. | our code in all of the files, follows the coding standards that we know of currently |
-| 7 | Write appropriate comments that help other developers understand and reuse code. | each file has a good amount of comments to explain to other programmers how to reuse or access and understand certain features (however still may need more) |
-| 8 | Design unit tests to evaluate the project’s correctness and completeness. | Unit tests have been created for each of the 3 games by each of us, and some unit tests for the game overall |
-| 8 | Analyze and interpret compilation errors, unit test results, and code behavior to debug code. | Much testing has taken place to make sure that the user wallet is functioning properly |
-| 10 | Write code that utilizes programming-language constructs and software libraries from documentation. | the group has researched into multiple libraries to make the complex features easier to create |
+| # | Goal                                                              | Implementation                                                              |
+| - | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| 1 | Identify a project that can be implemented in Swift.              | FAB Casino                                                                  |
+| 2 | Write a design document that will guide the development of the project. | Included in Documentation folder                                      |
+| 3 | Design and write code that makes appropriate use of fundamental programming constructs and data structures (e.g., expressions, conditions, loops, user-defined functions, primitive data types).                                       | each game of the 3 utilizes these programming constructs                    |
+| 4 | Design and write code that makes appropriate use of object-oriented concepts (e.g., classes, objects, methods, composition, and inheritance).Write a design document that will guide the development of the project.                | each game makes use of classes and objects                                  |
+| 5 | Design and write code that makes appropriate use of advanced programming concepts (e.g., error handling). | angels "roulette game" makes use of error handling, so that the user cannot type in a string when entering the bet amount                                                                                 |
+| 6 | Write code that follows coding standards.                         | all of the files, follows the coding standards that we know of currently    |
+| 7 | Write appropriate comments that help other developers understand and reuse code. | each file has a good amount of comments to explain to other programmers how to reuse or access and understand certain features                                                                                                       |
+| 8 | Design unit tests to evaluate the project’s correctness and completeness. | Unit tests have been created for each of the 3 games by each of us, and some unit tests for the game overall                                                                                                                            |
+| 9 | Analyze and interpret compilation errors, unit test results, and code behavior to debug code. | Much testing has taken place to make sure that the user wallet is functioning properly                                                                                                                                  |
+| 10 | Write code that utilizes programming-language constructs and software libraries from documentation. | the group has researched into multiple libraries to make the complex features easier to create                                                                                                                 |
 
 ## Brainstorm
 ```
