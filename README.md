@@ -96,7 +96,7 @@ member, the email of the group representative, or whatever makes the most sense.
 Release Version Features List (12/7/2020): 
   1. Main lobby, Game menu animations (game tables, background) 
   2. Main character Animation (Mafia member) 
-  3. Mafia character physics (move around tables & screen) 
+  3. Main character physics (move around tables & screen) 
   4. 3 different casino games 
       a. Roulette 
       b. BlackJack 
