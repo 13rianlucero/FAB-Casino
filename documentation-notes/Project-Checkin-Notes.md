@@ -79,7 +79,6 @@ Brainstorming on whetheror
 ## PROJECT CHECK-IN #3
 
 <refer to other documents>
----------------------------------------------------------
 
 ## PROJECT CHECK-IN #4
 
