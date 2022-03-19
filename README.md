@@ -11,13 +11,12 @@ iOS Application
 
 ## Overview
 ### Summary
-```
-  FAB Casino is a Casino themed, mobile game application on iOS. 
-The app user can play games, and walk around the virtual Casino. 
-The objective is to obtain more virtual chips(in-game currency), 
-just like in any real-world casino. Chips can be gained by 
-playing and bidding in any of the three games.
-```
+
+- ***FAB Casino*** is a Casino themed, mobile game application on iOS. 
+- The app user can play games, and walk around the virtual Casino. 
+- The objective is to obtain more virtual chips(in-game currency), just like in any real-world casino. 
+- Chips can be gained by playing and bidding in any of the three games.
+
 ![FAB-Casino](https://user-images.githubusercontent.com/47013770/159123678-11599cb1-9fc5-4c7b-aa0c-f1e88d7bce3a.jpg)
 
 ## Brainstorm
