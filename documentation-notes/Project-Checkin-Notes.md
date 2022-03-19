@@ -1,8 +1,8 @@
 # Project-Checkin-Notes
-
 - contains the notes summarizing what was discussed during the check-ins with paul.
 
-# check-in 1
+---------------------------------------------------------
+## PROJECT CHECK-IN #1
 
 **10/15/2020 notes during Zoom lecture meeting:**
 > - We agreed on a general design for the project and pushed some of the starting code to the github master branch in the very beginning
@@ -37,11 +37,11 @@ Brainstorming on whetheror
 > 1. each of us create our own game project file
 >   - as soon as you create the starter file, commmit all the files to your github branch
 > 2. However, we should focus more on building the individual games. 
+---------------------------------------------------------
 
-# check-in 2
 
-**## PROJECT CHECK-IN #2
-- Thursday, October 29, 2020  |  CPSC-223W Swift**
+## PROJECT CHECK-IN #2
+- Thursday, October 29, 2020  |  CPSC-223W Swift
 
 ### Since the last project check-in, the new goal was:
 > - to fix and re-organize the github branches and version control of the files to avoid the mess of files and pull request issues from last time.
@@ -74,8 +74,14 @@ Brainstorming on whetheror
 
 **Fahad:** 
 - decided on including some games he made in a different CPSC class.
+---------------------------------------------------------
 
-# check-in 4
+## PROJECT CHECK-IN #3
+
+<refer to other documents>
+---------------------------------------------------------
+
+## PROJECT CHECK-IN #4
 
 **1. Identify a project that can be implemented in Swift.**
 *- casino arcade app*
@@ -106,3 +112,4 @@ Brainstorming on whetheror
 
 **10. Write code that utilizes programming-language constructs and software libraries from documentation.**
  *- the group has researched into multiple libraries to make the complex features easier to create*
+ ---------------------------------------------------------
