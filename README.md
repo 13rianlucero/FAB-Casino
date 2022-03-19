@@ -9,15 +9,20 @@ iOS Application
 | Angel Zambrano              | angelz@csu.fullerton.edu          |
 | Fahad Alsowaylim            | fss@csu.fullerton.edu             |
 
-## Overview
-### Summary
+## Introduction
 
 - `FAB Casino` is a Casino themed, mobile game application on iOS. 
 - The app user can play games, and walk around the virtual Casino. 
 - The objective is to obtain more virtual chips(in-game currency), just like in any real-world casino. 
 - Chips can be gained by playing and bidding in any of the three games.
 
+---------------------------------------------------
+![Demo-part2](https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif)
+---------------------------------------------------
 ![FAB-Casino](https://user-images.githubusercontent.com/47013770/159123678-11599cb1-9fc5-4c7b-aa0c-f1e88d7bce3a.jpg)
+---------------------------------------------------
+![Demo-part1](https://user-images.githubusercontent.com/47013770/159123715-e4f13d97-699a-4a57-8647-7c8b44ee8b0e.gif)
+---------------------------------------------------
 
 ## Brainstorm
 ```
@@ -38,9 +43,6 @@ Overall App Idea Brainstorm:
       ○ Dont let ur mom find out 
       ○ Palacio del tesoro
 ```
-## Introduction GIFs
-![Demo-part1](https://user-images.githubusercontent.com/47013770/159123715-e4f13d97-699a-4a57-8647-7c8b44ee8b0e.gif)
-![Demo-part2](https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif)
 
 ## Platform
 ```
@@ -124,7 +126,3 @@ Release Version Features List (12/7/2020):
 | 12     | Textures, Graphics cleanup.                 | Wallet connected between all 3 games                       |
 | 13     | Unit testing, Storage.                      | Check for Saved User Data                                  |
 | 14     | App Testing                                 | App testing, Clean up, Documentation, Presentation         |
-
-
-
-
