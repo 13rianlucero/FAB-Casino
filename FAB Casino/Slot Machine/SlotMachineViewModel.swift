@@ -22,7 +22,7 @@ class SlotMachineViewModel {
     // get last saved score
     func getScore() -> Int {
         return UserDefaults.standard.integer(forKey: Constant.user_cash)
-//        return cash <= 0 ? 500 : cash
+        //  return cash <= 0 ? 500 : cash
     }
     
     // check if it's first time playing
@@ -38,6 +38,15 @@ class SlotMachineViewModel {
     // play sound
     func play(sound name: String) {
         guard let url = Bundle.main.url(forResource: name, withExtension: "wav") else {
+            return
+        }
+        player = try? AVAudioPlayer(contentsOf: url)
+        player?.play()
+    }
+    
+    // play background music
+    func play_music(sound name: String) {
+        guard let url = Bundle.main.url(forResource: name, withExtension: "mp3") else {
             return
         }
         player = try? AVAudioPlayer(contentsOf: url)

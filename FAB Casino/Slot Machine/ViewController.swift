@@ -46,6 +46,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
         swipeDown.direction = UISwipeGestureRecognizer.Direction.down
         view.addGestureRecognizer(swipeDown)
+//        vm.play_music(sound: Music.goosebumps_everytime)
     }
     
     // Bet amount

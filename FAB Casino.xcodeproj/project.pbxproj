@@ -53,6 +53,17 @@
 		CE54F7DF255DC4E200F01693 /* APP-ICON.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE54F7DC255DC4E200F01693 /* APP-ICON.xcassets */; };
 		CEB1DC9525844CD800BC419C /* Croupier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE224B2553BF4D00AB15C3 /* Croupier.swift */; };
 		CEB1DC9925844CD900BC419C /* Croupier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE224B2553BF4D00AB15C3 /* Croupier.swift */; };
+		CEB45F0B27F3FD8400AF322A /* AYO 10-16-19, 4.21.44 PM.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45EF827F3FD8000AF322A /* AYO 10-16-19, 4.21.44 PM.m4a */; };
+		CEB45F0E27F3FD8400AF322A /* goosebumps everytime 4-12-19, 7.10.31 PM.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45EFB27F3FD8100AF322A /* goosebumps everytime 4-12-19, 7.10.31 PM.m4a */; };
+		CEB45F0F27F3FD8400AF322A /* GROOVY LIGHT  8-12-17, 6.52.27 PM.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45EFC27F3FD8100AF322A /* GROOVY LIGHT  8-12-17, 6.52.27 PM.m4a */; };
+		CEB45F1027F3FD8400AF322A /* PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45EFD27F3FD8100AF322A /* PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub.m4a */; };
+		CEB45F1227F3FD8400AF322A /* _ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45EFF27F3FD8200AF322A /* _ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM.m4a */; };
+		CEB45F1527F3FD8400AF322A /* DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45F0227F3FD8300AF322A /* DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB.m4a */; };
+		CEB45F1927F3FD8400AF322A /* DJ Taj - Talk (Jersey Club Mix) @DjLilTaj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45F0627F3FD8300AF322A /* DJ Taj - Talk (Jersey Club Mix) @DjLilTaj.m4a */; };
+		CEB45F1A27F3FD8400AF322A /* DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix).m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45F0727F3FD8400AF322A /* DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix).m4a */; };
+		CEB45F1F27F427F100AF322A /* Music Sounds Better With You.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45F1E27F427F100AF322A /* Music Sounds Better With You.m4a */; };
+		CEB45F2127F42CE200AF322A /* galaga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CEB45F2027F42CE200AF322A /* galaga.m4a */; };
+		CEB45F2527F4315900AF322A /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB45F2427F4315900AF322A /* 5.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +134,17 @@
 		CE54F7DA255DC4E200F01693 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
 		CE54F7DB255DC4E200F01693 /* playstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playstore.png; sourceTree = "<group>"; };
 		CE54F7DC255DC4E200F01693 /* APP-ICON.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "APP-ICON.xcassets"; sourceTree = "<group>"; };
+		CEB45EF827F3FD8000AF322A /* AYO 10-16-19, 4.21.44 PM.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AYO 10-16-19, 4.21.44 PM.m4a"; sourceTree = "<group>"; };
+		CEB45EFB27F3FD8100AF322A /* goosebumps everytime 4-12-19, 7.10.31 PM.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "goosebumps everytime 4-12-19, 7.10.31 PM.m4a"; sourceTree = "<group>"; };
+		CEB45EFC27F3FD8100AF322A /* GROOVY LIGHT  8-12-17, 6.52.27 PM.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GROOVY LIGHT  8-12-17, 6.52.27 PM.m4a"; sourceTree = "<group>"; };
+		CEB45EFD27F3FD8100AF322A /* PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub.m4a"; sourceTree = "<group>"; };
+		CEB45EFF27F3FD8200AF322A /* _ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "_ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM.m4a"; sourceTree = "<group>"; };
+		CEB45F0227F3FD8300AF322A /* DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB.m4a"; sourceTree = "<group>"; };
+		CEB45F0627F3FD8300AF322A /* DJ Taj - Talk (Jersey Club Mix) @DjLilTaj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DJ Taj - Talk (Jersey Club Mix) @DjLilTaj.m4a"; sourceTree = "<group>"; };
+		CEB45F0727F3FD8400AF322A /* DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix).m4a"; sourceTree = "<group>"; };
+		CEB45F1E27F427F100AF322A /* Music Sounds Better With You.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Music Sounds Better With You.m4a"; sourceTree = "<group>"; };
+		CEB45F2027F42CE200AF322A /* galaga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = galaga.m4a; sourceTree = "<group>"; };
+		CEB45F2427F4315900AF322A /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +195,16 @@
 		478D07D0251AE48400C033F2 /* FAB Casino */ = {
 			isa = PBXGroup;
 			children = (
+				CEB45F2027F42CE200AF322A /* galaga.m4a */,
+				CEB45F1E27F427F100AF322A /* Music Sounds Better With You.m4a */,
+				CEB45EFF27F3FD8200AF322A /* _ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM.m4a */,
+				CEB45EF827F3FD8000AF322A /* AYO 10-16-19, 4.21.44 PM.m4a */,
+				CEB45F0627F3FD8300AF322A /* DJ Taj - Talk (Jersey Club Mix) @DjLilTaj.m4a */,
+				CEB45F0727F3FD8400AF322A /* DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix).m4a */,
+				CEB45F0227F3FD8300AF322A /* DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB.m4a */,
+				CEB45EFB27F3FD8100AF322A /* goosebumps everytime 4-12-19, 7.10.31 PM.m4a */,
+				CEB45EFC27F3FD8100AF322A /* GROOVY LIGHT  8-12-17, 6.52.27 PM.m4a */,
+				CEB45EFD27F3FD8100AF322A /* PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub.m4a */,
 				CE54F7DA255DC4E200F01693 /* appstore.png */,
 				CE54F7DB255DC4E200F01693 /* playstore.png */,
 				47CC5B3D255C9981001CDB36 /* Slot Machine */,
@@ -230,6 +262,7 @@
 		5BB65B17255166300017B4CC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CEB45F2427F4315900AF322A /* 5.jpeg */,
 				478D07DB251AE48400C033F2 /* Main.storyboard */,
 				478D07D9251AE48400C033F2 /* GameViewController.swift */,
 				478D07D7251AE48400C033F2 /* GameScene.swift */,
@@ -342,7 +375,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1210;
-				ORGANIZATIONNAME = "Fahad Alswailem";
+				ORGANIZATIONNAME = "Brian Lucero";
 				TargetAttributes = {
 					478D07CD251AE48400C033F2 = {
 						CreatedOnToolsVersion = 11.7;
@@ -382,21 +415,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB45F0B27F3FD8400AF322A /* AYO 10-16-19, 4.21.44 PM.m4a in Resources */,
 				5BB65B1B255166D00017B4CC /* Roulette.storyboard in Resources */,
 				47CC5B4A255C9B3D001CDB36 /* SlotMachine.storyboard in Resources */,
+				CEB45F2127F42CE200AF322A /* galaga.m4a in Resources */,
 				47CC5B52255C9C29001CDB36 /* spin.wav in Resources */,
+				CEB45F1A27F3FD8400AF322A /* DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix).m4a in Resources */,
+				CEB45F1F27F427F100AF322A /* Music Sounds Better With You.m4a in Resources */,
+				CEB45F0F27F3FD8400AF322A /* GROOVY LIGHT  8-12-17, 6.52.27 PM.m4a in Resources */,
+				CEB45F1027F3FD8400AF322A /* PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub.m4a in Resources */,
 				47CC5B6E255C9F5E001CDB36 /* SlotMachine.xcassets in Resources */,
 				CE54F7DD255DC4E200F01693 /* appstore.png in Resources */,
 				CE54F7DE255DC4E200F01693 /* playstore.png in Resources */,
+				CEB45F1927F3FD8400AF322A /* DJ Taj - Talk (Jersey Club Mix) @DjLilTaj.m4a in Resources */,
+				CEB45F2527F4315900AF322A /* 5.jpeg in Resources */,
 				478D07DD251AE48400C033F2 /* Main.storyboard in Resources */,
 				47CC5B51255C9C29001CDB36 /* win.wav in Resources */,
 				CE54F7DF255DC4E200F01693 /* APP-ICON.xcassets in Resources */,
 				478D07D4251AE48400C033F2 /* GameScene.sks in Resources */,
 				47996089255131B3000ACEED /* Blackjack.xcassets in Resources */,
+				CEB45F0E27F3FD8400AF322A /* goosebumps everytime 4-12-19, 7.10.31 PM.m4a in Resources */,
+				CEB45F1527F3FD8400AF322A /* DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB.m4a in Resources */,
 				478D07DF251AE48600C033F2 /* Casino.xcassets in Resources */,
 				47DBC05B255D0E3800B71302 /* Roulette.xcassets in Resources */,
 				478D07E2251AE48600C033F2 /* LaunchScreen.storyboard in Resources */,
 				478D07D6251AE48400C033F2 /* Actions.sks in Resources */,
+				CEB45F1227F3FD8400AF322A /* _ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -611,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -629,7 +673,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS7K8XUHZ5;
 				INFOPLIST_FILE = "FAB Casino/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -648,7 +692,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS7K8XUHZ5;
 				INFOPLIST_FILE = "FAB Casino/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -14,7 +14,11 @@
 import GameplayKit
 import SpriteKit
 import UIKit
-let button = UIButton(frame: CGRect(x: 20, y: 20, width: 200, height: 60))
+import AVFoundation
+import Foundation
+
+let button = UIButton(frame: CGRect(x: 20, y: 50, width: 200, height: 60))
+let button_select_music = UIButton(frame: CGRect(x: 20, y: 130, width: 200, height: 50))
 class GameViewController: UIViewController {
     let vm = HomeViewModel()
     override func viewDidLoad() {
@@ -37,10 +41,19 @@ class GameViewController: UIViewController {
         }
         button.addTarget(self, action: #selector(self.addAmount(sender:)), for: .touchUpInside)
         self.view.addSubview(button)
+        
+        // ======== new ==========
+        button_select_music.addTarget(self, action: #selector(self.select(sender:)), for: .touchUpInside)
+        self.view.addSubview(button_select_music)
+        vm.playMusic(sound: Music.goosebumps_everytime)
+        // ======================
     }
 
     override func viewWillAppear(_ animated: Bool) {
         button.setTitle("Balance: \(self.vm.getBalance())", for: .normal)
+        button.backgroundColor = UIColor.darkGray
+        button_select_music.setTitle("Music", for: .normal)
+        button_select_music.backgroundColor = UIColor.darkGray
     }
     
     override var shouldAutorotate: Bool {
@@ -84,4 +97,41 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    // ========== new button function =========
+    @objc func select(sender: UIButton) {
+        // 1. Create the alert controller.
+        let alert = UIAlertController(title: "Lobby Music", message: "Select the song below: ", preferredStyle: .alert)
+        
+        // 2. Add the text field. You can configure it however you need.
+        alert.addTextField { textField in
+            textField.placeholder = "Song Number"
+            textField.keyboardType = .numberPad
+        }
+        
+        let song: String = "1: Music Sounds Better With You\n2: London Mix\n3: Ayo Mix\n4: Talk\n5: Go Loko\n6: The Box\n7: Groovy Mix\n8: Goosebumpsn/9: Pink Sweats"
+        alert.message = song;
+        
+        // 3. Grab the value from the text field, and print it when the user clicks OK.
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { [weak alert] _ in
+            if let textFieldVal = alert?.textFields![0].text, let input_num = Int(textFieldVal) {
+                if (input_num == 0) {
+                    self.vm.pauseMusic()
+                    sender.setTitle("~ PAUSED ~", for: .normal)
+
+                } else {
+                    self.vm.playMusic(sound: self.vm.selectMusic(song_number: input_num))
+                    sender.setTitle("Song: #\(input_num)", for: .normal)
+                }
+            } // Force unwrapping because we know it exists.
+            
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+        // 4. Present the alert.
+        self.present(alert, animated: true, completion: nil)
+        return
+    }
+    // =====================
 }

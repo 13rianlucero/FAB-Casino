@@ -13,6 +13,9 @@
 
 import GameplayKit
 import SpriteKit
+import AVFoundation
+import Foundation
+import UIKit
 
 class GameScene: SKScene {
     var thePlayer = SKSpriteNode()
@@ -106,4 +109,28 @@ class GameScene: SKScene {
     }
     
     override func update(_ currentTime: TimeInterval) {}
+}
+
+// defines some constant variables that will not have values that change.
+enum Music {
+    static let galaga: String = "galaga"
+    static let pink_sweats: String = "PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub"
+    static let music_sounds_better_with_you: String = "Music Sounds Better With You"
+    static let london_mix: String = "_ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM"
+    static let ayo_mix: String = "AYO 10-16-19, 4.21.44 PM"
+    static let talk: String = "DJ Taj - Talk (Jersey Club Mix) @DjLilTaj"
+    static let go_loko: String = "DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix)"
+    static let the_box: String = "DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB"
+    static let groovy_light: String = "GROOVY LIGHT  8-12-17, 6.52.27 PM"
+    static let goosebumps_everytime: String = "goosebumps everytime 4-12-19, 7.10.31 PM"
+    
+    static let pink_sweats_url: String = "PINK SWEAT$ ( JIDDY REMIX ) #jerseyclub.m4a"
+    static let music_sounds_better_with_you_url: String = "Music Sounds Better With You.m4a"
+    static let london_mix_url: String = "_ London 100 bands tokyo rain drops 4-6-20, 6.17.10 AM.m4a"
+    static let ayo_mix_url: String = "AYO 10-16-19, 4.21.44 PM.m4a"
+    static let talk_url: String = "DJ Taj - Talk (Jersey Club Mix) @DjLilTaj.m4a"
+    static let go_loko_url: String = "DJ Taj & DJ Smallz 732 - Go Loko (Jersey Club Mix).m4a"
+    static let the_box_url: String = "DJ Taj x The Box Jersey Mix ft. DJ Uzi #NJCLUB.m4a"
+    static let groovy_light_url: String = "GROOVY LIGHT  8-12-17, 6.52.27 PM.m4a"
+    static let goosebumps_everytime_url: String = "goosebumps everytime 4-12-19, 7.10.31 PM.m4a"
 }

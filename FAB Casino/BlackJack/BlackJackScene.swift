@@ -23,11 +23,14 @@ class BlackJackScene: SKScene {
         playerType = vm.player
         vm.updateDealerCardY(pos: Int(8*size.height/10))
         vm.updatePlayerCardY(pos: Int(2*size.height/10))
+        
+        // play background music
+//        vm.play_BJ_music(sound: Music.goosebumps_everytime)
     }
     
     // Board Item, has a container, instuction and deck
     let container = SKSpriteNode(color: .clear, size: CGSize(width: 220, height: 200))
-    let instruction = SKLabelNode(text: "PlAY GAME")
+    let instruction = SKLabelNode(text: "♥️♦️ FAB Casino ♠️♣️")
     let deck = Deck()
 
     // MARK: Set up Table and money container according to view Height
@@ -47,7 +50,7 @@ class BlackJackScene: SKScene {
         balance.fontSize = 17
         balance.fontColor = UIColor.black
         addChild(balance)
-        balance.position = CGPoint(x: 50, y: size.height - 50)
+        balance.position = CGPoint(x: 60, y: size.height - 50)
         deck.resetDeck()
     }
     
@@ -333,3 +336,6 @@ class BlackJackScene: SKScene {
         }
     }
 }
+
+
+

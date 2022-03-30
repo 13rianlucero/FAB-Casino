@@ -6,7 +6,9 @@
 //  Copyright © 2020 Fahad Alswailem. All rights reserved.
 //
 
+import AVFoundation
 import Foundation
+import UIKit
 
 // Basic functionality of blackjack.
 class BlackJackViewModel {
@@ -14,6 +16,7 @@ class BlackJackViewModel {
     let player = Player(hand: Hand(), cash: Cash())
     var dealerCardY = 800 // Y position of dealer cards
     var playerCardY = 200 // Y position of player cards
+    var AVAudioplayer: AVAudioPlayer?
     
     func updateDealerCardY(pos: Int) {
         dealerCardY = pos
@@ -59,4 +62,13 @@ class BlackJackViewModel {
     func resetMoneyPot() {
         moneyPot.reset()
     }
+    
+//    // play background music
+//    func play_BJ_music(sound name: String) {
+//        guard let url = Bundle.main.url(forResource: name, withExtension: "m4a") else {
+//            return
+//        }
+//        AVAudioplayer = try? AVAudioPlayer(contentsOf: url)
+//        AVAudioplayer?.play()
+//    }
 }

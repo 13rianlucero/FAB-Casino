@@ -9,6 +9,8 @@
 import GameplayKit
 import SpriteKit
 import UIKit
+import AVFoundation
+import Foundation
 
 // global variables
 var SKViewSize: CGSize?
