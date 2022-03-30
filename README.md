@@ -1,3 +1,8 @@
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
+![IOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+
 # FAB Casino
 iOS Application
 
@@ -9,17 +14,69 @@ iOS Application
 | Angel Zambrano              | angelz@csu.fullerton.edu          |
 | Fahad Alsowaylim            | fss@csu.fullerton.edu             |
 
-## Overview
-### Summary
+## Introduction
+
+- `FAB Casino` is a Casino themed, mobile game application on iOS. 
+- The app user can play games, and walk around the virtual Casino. 
+- The objective is to obtain more virtual chips(in-game currency), just like in any real-world casino. 
+- Chips can be gained by playing and bidding in any of the three games.
+- [Youtube Demo](https://youtu.be/DBmEFR_qsgE)
+
+---------------------------------------------------
+![Demo-part2](https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif)
+---------------------------------------------------
+
+# Project Goals
+
+| # | Goal                                                              | Implementation                                                              |
+| - | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| 1 | Identify a project that can be implemented in Swift.              | FAB Casino                                                                  |
+| 2 | Write a design document that will guide the development of the project. | Included in Documentation folder                                      |
+| 3 | Design and write code that makes appropriate use of fundamental programming constructs and data structures (e.g., expressions, conditions, loops, user-defined functions, primitive data types).                                       | Each game of the 3 utilizes these programming constructs                    |
+| 4 | Design and write code that makes appropriate use of object-oriented concepts (e.g., classes, objects, methods, composition, and inheritance).Write a design document that will guide the development of the project.                | Each game makes use of classes and objects                                  |
+| 5 | Design and write code that makes appropriate use of advanced programming concepts (e.g., error handling). | "roulette game" makes use of error handling, so that the user cannot type in a string when entering the bet amount                                                                                 |
+| 6 | Write code that follows coding standards.                         | All of the files, follows the coding standards that we know of currently    |
+| 7 | Write appropriate comments that help other developers understand and reuse code. | Each file has a good amount of comments to explain to other programmers how to reuse or access and understand certain features                                                                                                       |
+| 8 | Design unit tests to evaluate the project’s correctness and completeness. | Unit tests have been created for each of the 3 games by each of us, and some unit tests for the game overall                                                                                                                            |
+| 9 | Analyze and interpret compilation errors, unit test results, and code behavior to debug code. | Much testing has taken place to make sure that the user wallet is functioning properly                                                                                                                                  |
+| 10 | Write code that utilizes programming-language constructs and software libraries from documentation. | The group has researched into multiple libraries to make the complex features easier to create                                                                                                                 |
+
+# Features
+## Initial Feature Plan:
 ```
-  FAB Casino is a Casino themed, mobile game application on iOS. 
-The app user can play games, and walk around the virtual Casino. 
-The objective is to obtain more virtual chips(in-game currency), 
-just like in any real-world casino. Chips can be gained by 
-playing and bidding in any of the three games.
+  ● We should aim to have 9 features at minimum, (9 weeks dev, 1 week testing) 
+      1. screens 
+      2. Casino environment / lobby 
+      3. character animation for user / physics for environment and character 
+      4. Games: blackjack (21), slot machine (lucky 7 theme), roulette, 
+         logic / animations for the games 
+      5. In-game currency: different wallet for each game 
+      6. Lobby music 
 ```
 
-### Brainstorm
+## Realease Version
+```
+Release Version Features List (12/7/2020): 
+  1. Main lobby, Game menu animations (game tables, background) 
+  2. Main character Animation (Mafia member) 
+  3. Main character physics (move around tables & screen) 
+  4. 3 different casino games 
+      a. Roulette 
+      b. BlackJack 
+      c. SlotMachine 
+  5. Individual game currency 
+  6. Wallet connected between all 3 games 
+  7. Check for Saved User Data 
+      a. If first time, creates user profile containing wallet 
+         information from any of the 3 games 
+      b. If not first time, Loads previously saved wallet data 
+  8. All Code Feature Requirements from the Project Guide 
+```
+---------------------------------------------------
+![Demo-part1](https://user-images.githubusercontent.com/47013770/159123715-e4f13d97-699a-4a57-8647-7c8b44ee8b0e.gif)
+---------------------------------------------------
+
+# Brainstorm
 ```
 Overall App Idea Brainstorm: 
   ● Mobile app named: FAB Casino 
@@ -73,39 +130,8 @@ member, the email of the group representative, or whatever makes the most sense.
               make sure the information we learn in class sticks in our brains, and maybe 
               later it becomes muscle memory.
 ```
-## Features
-### Initial Plan:
-```
-  ● We should aim to have 9 features at minimum, (9 weeks dev, 1 week testing) 
-      1. screens 
-      2. Casino environment / lobby 
-      3. character animation for user / physics for environment and character 
-      4. Games: blackjack (21), slot machine (lucky 7 theme), roulette, 
-         logic / animations for the games 
-      5. In-game currency: different wallet for each game 
-      6. Lobby music 
-```
 
-### Realease Version
-```
-Release Version Features List (12/7/2020): 
-  1. Main lobby, Game menu animations (game tables, background) 
-  2. Main character Animation (Mafia member) 
-  3. Mafia character physics (move around tables & screen) 
-  4. 3 different casino games 
-      a. Roulette 
-      b. BlackJack 
-      c. SlotMachine 
-  5. Individual game currency 
-  6. Wallet connected between all 3 games 
-  7. Check for Saved User Data 
-      a. If first time, creates user profile containing wallet 
-         information from any of the 3 games 
-      b. If not first time, Loads previously saved wallet data 
-  8. All Code Feature Requirements from the Project Guide 
-```
-
-## Schedule
+# Schedule
 - Created a 10-week schedule to guide the team’s progress.
 - Last Updated: 12/07/2020 
 
@@ -122,6 +148,6 @@ Release Version Features List (12/7/2020):
 | 13     | Unit testing, Storage.                      | Check for Saved User Data                                  |
 | 14     | App Testing                                 | App testing, Clean up, Documentation, Presentation         |
 
+----------------------------------------
 
-
-
+![FAB-Casino](https://user-images.githubusercontent.com/47013770/159123678-11599cb1-9fc5-4c7b-aa0c-f1e88d7bce3a.jpg)
